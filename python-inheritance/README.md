@@ -1,6 +1,6 @@
 # Python - Inheritance
 
-### Resources
+Resources
 Read or watch:
 
 - [Inheritance](https://alu-intranet.hbtn.io/rltoken/pRigaMtzlZIXHVXZJ7yRMQ)
