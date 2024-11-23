@@ -1,10 +1,14 @@
 #!/usr/bin/python3
+"""
+    This script makes a request and displays a
+    response using the requests package.
+"""
+
 import requests
 
-# Fetch the URL
-response = requests.get('https://alu-intranet.hbtn.io/status')
+if __name__ == "__main__":
+    response = requests.get("https://alu-intranet.hbtn.io/status")
 
-# Display the formatted output
-print("Body response:")
-print("\t- type: {}".format(type(response.text)))
-print("\t- content: {}".format(response.text))
+    print("Body response:")
+    print(f"\t- type: {type(response.text)}")
+    print(f"\t- content: {response.text}")
